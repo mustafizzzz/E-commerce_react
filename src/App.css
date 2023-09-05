@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*=============== Navbar Css============ */
+
+.navbar {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px rgba(128, 128, 128, 0.74);
+  /* --webkit-box-shadow: 0px 8px 2=6px -6px gray; */
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.801);
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.active {
+  border-bottom: 2px solid black;
+
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* =========== Footer =========*/
+.footer {
+  color: white;
+  padding: 25px;
+  background-color: rgb(70, 70, 70);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: aliceblue;
+  border-bottom: 1px solid black;
+
+}
+
+/* ==========Page not found =======*/
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  text-decoration: none;
+  background-color: gray;
+  color: whitesmoke;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* =========Register ============ */
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+
+/* ============All products */
+
+.product-link {
+  text-decoration: none;
+  color: black !important;
+
+}
