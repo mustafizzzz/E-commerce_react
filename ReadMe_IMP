@@ -1,0 +1,23 @@
+**How To clone project**
+
+
+Make a Directory
+mkdir E-commerce
+cd E-commerce
+
+Clone Both Branches:
+git clone <backend-repo-url> back_end
+mkdir client
+cd client
+git clone <frontend-repo-url> main
+
+Install Packages (Frontend and Backend):
+cd E-commerce
+npm i
+cd client
+npm i
+
+Run the server:
+cd E-commerce
+npm run dev
+
